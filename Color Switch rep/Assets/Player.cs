@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -45,9 +46,11 @@ public class Player : MonoBehaviour
         }
     }
 
+
+
     void SetRandomColor()
     {
-        int index = Random.Range(0, 4);
+        int index = UnityEngine.Random.Range(0, 4);
         switch (index)
         {
             case 0:

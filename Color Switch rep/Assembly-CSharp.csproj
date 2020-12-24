@@ -57,7 +57,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FinalScore.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
+    <Compile Include="Assets\GameOverMenu.cs" />
     <Compile Include="Assets\LevelGenerator.cs" />
     <Compile Include="Assets\LocalizeService\Demo\LocolizeTest.cs" />
     <Compile Include="Assets\LocalizeService\Plugins\Core\MonoSingleton.cs" />

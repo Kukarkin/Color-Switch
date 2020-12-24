@@ -41,8 +41,9 @@ public class Player : MonoBehaviour
         }
         if (col.tag != currentColor)
         {
-            Debug.Log("loh");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            FindObjectOfType<GameOverMenu>().EndGame();
+            //Debug.Log("loh");
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
